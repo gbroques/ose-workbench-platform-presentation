@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Introduction">
+  <title>OSE Workbench Platform</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">OSE Workbench Platform</h1>
+  <p class="author">Introduction</p>
+</section>
+
+<section id="overview" class="slide level3">
+<h3>Overview</h3>
+<ul>
+<li class="fragment">What?</li>
+<li class="fragment">Why?</li>
+<li class="fragment">How?</li>
+</ul>
+</section>
+<section id="what-is-ose-workbench-platform" class="slide level3">
+<h3>What is OSE Workbench Platform?</h3>
+<ul>
+<li class="fragment">Common platform for OSE workbench development.</li>
+<li class="fragment">A CLI for common development tasks.</li>
+<li class="fragment">A catalog of patterns for how to develop a workbench using FreeCAD.</li>
+</ul>
+</section>
+<section id="a-common-platform" class="slide level3">
+<h3>A Common Platform</h3>
+<ul>
+<li class="fragment">A foundation</li>
+<li class="fragment">A framework</li>
+<li class="fragment">A toolbox</li>
+</ul>
+</section>
+<section id="osewb-cli" class="slide level3">
+<h3>osewb CLI</h3>
+<ul>
+<li class="fragment">Run all unit tests - <code>osewb test</code></li>
+<li class="fragment">Lint code - <code>osewb lint</code></li>
+<li class="fragment">Build documentation - <code>osewb docs</code></li>
+<li class="fragment">Generate code - <code>osewb make</code></li>
+<li class="fragment">… and more! Use <code>osewb -h</code></li>
+</ul>
+</section>
+<section id="a-catalog-of-patterns" class="slide level3">
+<h3>A Catalog of Patterns</h3>
+<p><a href="https://ose-workbench-platform.readthedocs.io/en/latest/">https://ose-workbench-platform.readthedocs.io/en/latest/</a></p>
+</section>
+<section id="why" class="slide level3">
+<h3>Why?</h3>
+<ul>
+<li class="fragment">Provide a common tool-set and vocabulary</li>
+<li class="fragment">Avoid duplication of efforts</li>
+<li class="fragment">Keep OSE workbench developers focused on the domain</li>
+<li class="fragment">Make it easier for OSE workbench developers to collaborate together</li>
+</ul>
+</section>
+<section id="how" class="slide level3">
+<h3>How</h3>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
