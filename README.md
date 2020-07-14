@@ -50,3 +50,8 @@
 
 ### How
 
+* A conda package
+* Conda environments
+* CLI
+
+---
