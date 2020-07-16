@@ -30,13 +30,6 @@ Dev versus "Regular" Dependencies
 
 `$ osewb`
 
-<!--
-* Run all unit tests - `osewb test`
-* Lint code - `osewb lint`
-* Build documentation - `osewb docs`
-* Generate code - `osewb make`
-* ... and more! Use `osewb -h`
- -->
 ---
 
 `$ osewb test`
@@ -69,20 +62,50 @@ Dev versus "Regular" Dependencies
 
 ### Why?
 
-* Provide a common tool-set and vocabulary
-* Avoid duplication of efforts
-* Keep OSE workbench developers focused on the domain
-* Make it easier for OSE workbench developers to collaborate together
+---
+
+Provide a common tool-set and vocabulary.
+
+---
+
+Avoid duplication of efforts.
+
+---
+
+Allow workbench developers to focus on the domain.
+
+---
+
+Make it easier to **collaborate**.
 
 ---
 
 ### How?
 
-* Conda
-* CLI
+---
+
+CLI
+
+---
+
+![](./conda_logo.svg)
+
+---
+
+### Conclusion
+
+* A common platform for OSE workbench development
+* To make it easier to collaborate
+* Using a CLI & Conda
 
 ---
 
 ### What's Next?
 
-* Getting Started & Installation
+---
+
+Getting Started & Installation
+
+---
+
+Thank you!
