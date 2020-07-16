@@ -12,6 +12,10 @@
 
 ---
 
+![](./foundation.png)
+
+---
+
 A CLI for common development tasks.
 
 ---
@@ -20,7 +24,7 @@ A catalog of patterns for how to develop a workbench using FreeCAD.
 
 ---
 
-![Dev versus Regular Dependencies](./dev-vs-reg-dep.png)
+Dev versus "Regular" Dependencies
 
 ---
 
@@ -57,7 +61,11 @@ A catalog of patterns for how to develop a workbench using FreeCAD.
 
 ### A Catalog of Patterns
 
-[https://ose-workbench-platform.readthedocs.io/en/latest/](https://ose-workbench-platform.readthedocs.io/en/latest/)
+---
+
+<img src="./cake.png" style="width: 250px; height: auto" />
+
+---
 
 ### Why?
 
