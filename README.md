@@ -1,5 +1,4 @@
 % OSE Workbench Platform
-% Introduction
 
 ### Overview
 
@@ -11,9 +10,13 @@
 
 ### What is OSE Workbench Platform?
 
-* A foundation for development
-* A CLI for common development tasks.
-* A catalog of patterns for how to develop a workbench using FreeCAD.
+---
+
+A CLI for common development tasks.
+
+---
+
+A catalog of patterns for how to develop a workbench using FreeCAD.
 
 ---
 
